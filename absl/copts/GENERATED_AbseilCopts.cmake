@@ -79,6 +79,10 @@ list(APPEND ABSL_GCC_TEST_FLAGS
     "-Wno-unused-private-field"
 )
 
+list(APPEND ABSL_LLVM_FLAGS
+   "-Wno-gcc-compat"
+)
+
 #list(APPEND ABSL_LLVM_FLAGS
     #"-Wall"
     #"-Wextra"
